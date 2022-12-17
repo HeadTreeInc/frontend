@@ -1,0 +1,152 @@
+.land-page-outer {
+    color: #656363;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 56px;
+    background-image: url(../images/land/bg-body.png);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.land-page-outer .owl-nav button{position:absolute;left:-60px;top:40%;margin-top:-15px;}
+.land-page-outer .h2, .land-page-outer h2{font-size:1.6rem;font-weight:600;color:#333;}
+.land-page-outer .owl-prev,.owl-next{width:40px;height:40px;}
+.land-page-outer .owl-nav button.owl-next{position:absolute;right:-60px;left:auto;margin-top:-15px;}
+.land-page-outer .owl-nav button span{font-style:normal;font-size:30px;}
+.land-page-outer p{text-align:justify}
+html{scroll-behavior:smooth;}
+.land-page-outer img{max-width:100%}
+.land-page-outer ul,ol{list-style:none;padding:0}
+.land-page-outer .green-dark{background-color:#227b82;}
+.land-page-outer header{position:fixed;top:0;z-index:99;width:100%;}
+.land-page-outer .banner-text .container{position:relative;}
+.land-page-outer .banner-text h2{color:#fff;font-size:2.2rem;font-weight:500;line-height:39px; padding-top:86px;}
+.land-page-outer .banner-text p{color:#fff;font-size:15px;font-weight:400;line-height:24px;margin-bottom:20px;}
+.land-page-outer .challeng-box:nth-child(2n) .row div:first-child{order:2;}
+.land-page-outer .banner-text{width:100%;position:relative;background-size:cover;padding:30px 0;background-image:url("../images/land/slider.png");color:#fff;background-color:#22868e;background-size:80%;background-repeat:no-repeat;background-position:0 20px;}
+.land-page-outer .login-sec .nav-link{border:solid 1px #fff;border-radius:50px;padding:3px 6px;padding-right:6px;padding-left:6px;margin-left:10px;}
+.land-page-outer .login-sec{margin-left:10px;}
+.land-page-outer .banner-text .btn{background:#56c3cc;color:#fff !important;border-radius:2px;font-size:18px;padding:9px 30px;transition:0.5s;}
+.land-page-outer .banner-text .btn:hover{background:#1ea3ae;}
+.land-page-outer #about .about-content h2{color:#413e66;font-weight:700;}
+.land-page-outer #about .about-content h3{color:#696592;font-weight:400;font-size:22px;font-style:italic;}
+.land-page-outer #about .about-img{position:relative;margin:49px 0 0;}
+
+.land-page-outer #about img{position:relative;z-index:1}
+.land-page-outer #about .about-content ul li{padding-bottom:10px;position:relative;}
+.land-page-outer #about .about-content ul li i{font-size:20px;padding-right:4px;color:#56c3cc;position:absolute;top:0;left:0;}
+.land-page-outer .Promoters .accordion{background:#f7f7f7;padding:20px;box-shadow:0 4px 11px #dadada;}
+.land-page-outer .card-box button.btn.btn-link.collapsed{padding:0;margin:0 0 10px;font-size:16px;font-weight:600;display:flex;justify-content:space-between;width:100%;color:#555;text-decoration:none;}
+.land-page-outer section#about{border-bottom:solid 1px #ececec;background:#f9f9f9;padding-top:80px;}
+.land-page-outer .Promoters,.technology{padding-top:70px;}
+.land-page-outer .card-box button.btn.btn-link{color:#1ea3ae;padding:0;margin:0 0 10px;font-size:16px;display:flex;font-weight:600;justify-content:space-between;width:100%;text-transform:uppercase;text-decoration:none;}
+.land-page-outer .accordion-text h5{font-size:16px;color:#50b7d6;font-weight:600;}
+.land-page-outer .card-box{padding-bottom:6px;margin-bottom:10px;}
+.land-page-outer .card-box:last-child{border-bottom:none;padding-bottom:0px;margin-bottom:0px;}
+.land-page-outer .section-heading h2{color:#413e66;font-weight:700;text-transform:uppercase;margin-bottom:10px;}
+.land-page-outer .What-We-Offer .section-heading p{text-align:center;}
+.land-page-outer .section-heading{text-align:center;margin-bottom:50px;}
+.land-page-outer .card-box-body{max-height:439px;background:#ffffff;overflow:auto;padding:16px;border:solid 1px #ddd;}
+.land-page-outer header .navbar-expand-md .navbar-nav .nav-link{padding-right:0.8rem;padding-left:0.8rem;text-transform:uppercase;font-weight:600;font-size:14px;}
+.land-page-outer .card-box button.btn.btn-link i{transform:rotate(90deg);}
+.land-page-outer .What-We-Offer{padding-top:70px;}
+.land-page-outer .card-box button.btn.collapsed i{transform:rotate(0deg);}
+.land-page-outer section#Partner{background:#2a9aa2;padding-top:70px;padding-bottom:50px;color:#fff;}
+.land-page-outer .Partner .section-heading h2{color:#ffffff;}
+.land-page-outer .Partner li{background:#1c9fa9;border:solid 1px #45b1b9;border-radius:0;margin:10px 0 0px;padding:7px 20px;display:inline-block;min-width:410px;border-left:solid 4px #56c3cc;color:#ddfcff;}
+.land-page-outer .Partner p{color:#ddfcff;}
+.land-page-outer  .icon-box .title{font-weight:600;margin-bottom:5px;font-size:18px;}
+.land-page-outer  .icon-box .icon{background:#fff;width:64px;height:64px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center;border-radius:50%;border:2px solid #007bff;transition:all 0.3s ease-in-out;}
+.land-page-outer  .icon-box .icon i{color:#56c3cc;font-size:24px;}
+.land-page-outer  .icon-box{background-size:cover;padding:10px 10px 24px 10px;position:relative;overflow:hidden;border-radius:10px;margin:0 10px 40px 10px;background:#fff;box-shadow:0 10px 29px 0 rgba(68, 88, 144, 0.1);transition:all 0.3s ease-in-out;border:solid 1px #ececec;text-align:center;flex:1;}
+.land-page-outer  .icon-box .description{margin-left:80px;line-height:24px;font-size:14px;}
+.land-page-outer  .icon-box .icon{background:#fff;width:64px;height:64px;text-align:center;border-radius:50%;border:2px solid #56c3cc;transition:all 0.3s ease-in-out;margin:10px auto 20px;}
+.land-page-outer  .icon-box .title a{color:#56c3cc}
+.land-page-outer  .offer-list{display:flex;flex-wrap:wrap;justify-content:center;width:100%;}
+.land-page-outer  .navbar-dark .navbar-nav .nav-link{color:#fff;}
+.land-page-outer .feature.white-cont {overflow: hidden;padding: 29px 0;background-image: url(../images/land/key-features.png);background-repeat: repeat-y;background-size: contain;}
+.land-page-outer  .white-cont h2,.white-cont h3,.white-cont h4,.white-cont p{color:#fff;}
+.land-page-outer .feature p { margin: 0; line-height: 31px;position: relative;padding-left: 17px;}
+.left-part p::before {content: "";width: 7px; height: 7px;border-top: solid 2px #fff;border-left: solid 2px #fff;position: absolute;   top: 13px;left: 0;transform: rotate(131deg);}
+.land-page-outer  .blockchain{text-align:center;margin:50px 0 70px;}
+.land-page-outer  .blockchain img{max-width:80%;margin:auto;border-radius:7px;}
+.land-page-outer  #footer{background:#494c4e;color:#eee;font-size:14px;text-align:center;padding:20px;}
+.land-page-outer  .challeng-box{padding:20px;box-shadow:0 0 10px #e3e3e3;margin:10px;background: #fff;}
+.land-page-outer  #our-team .section-heading{margin-bottom:20px;}
+.land-page-outer  .blockList img{border:solid 1px #ddd;max-width:140px;margin:0 auto 30px;border-radius:230px;background:#f7f7f7;padding:4px;display:inline-block !important;}
+.land-page-outer  .blockList h6 strong{font-weight:normal;}
+.land-page-outer  .blockList p{text-align:center;}
+.land-page-outer  .blockList h6{font-weight:normal;font-size:14px;font-style:italic;}
+.land-page-outer  .technology h4{font-size:18px;font-weight:600;}
+.land-page-outer  ul.li-desc li{color:#333;}
+.land-page-outer  ul.li-desc li{margin:10px 0;line-height:26px;padding-left:30px;position:relative;}
+.land-page-outer  ul.li-desc li:before{content:"";border-radius:60px;width:10px;height:10px;background:#1ea3ae;border:2px solid #56c3cc;position:absolute;left:0;top:10px;}
+/*.land-page-outer  .technology img.mb-2{max-width:50px;border:solid 1px #ddd;border-radius:100%;}*/
+.land-page-outer  p.h5{font-weight:bold;font-size:16px;margin:5px 0;}
+.land-page-outer  .technology{background-image:url("../images/land/left-tringle.jpg");background-size:cover;padding-bottom:50px;}
+.land-page-outer  .blockchain-data ul{list-style:disc;padding-left:20px;margin-bottom:50px;}
+.land-page-outer  .blockchain-data ul li{margin-bottom:5px;}
+.land-page-outer  .blockchain-data .green-text{font-size:17px;}
+.land-page-outer  .block-p,.stnd-element p{font-size:16px;line-height:29px;}
+.land-page-outer .green-text{color:#1ea3ae;font-weight:600;margin-bottom:10px;}
+h2.bottom30.page-heading{font-size:22px;}
+
+.carousel-indicators li {width: 35px;height: 6px;background-color: #2b9aa1;opacity: .2;}
+.carousel-indicators {bottom: 10px;}
+.land-page-outer .challeng-box {min-height: 470px;}
+
+.land-page-outer #footer a.nav-link {color: #ffffff !important;padding: 0 0 0px;}
+.land-page-outer	.copyright.text-left {font-size: 11px;color: #ccc9c9;margin: 20px 0;}
+.land-page-outer footer#footer strong {color: #ffffff!important;}
+.land-page-outer footer#footer  .nav-item:hover{background: transparent !important;}
+
+
+
+@media screen and (min-width:0px) and (max-width:768px){.banner-text .container:before{display:none}
+.land-page-outer .banner-text{padding:46px 0 43px;}
+.land-page-outer .banner-text p{max-width:100%;}
+.land-page-outer .blockList p{max-height:250px;overflow:auto;}
+.land-page-outer .section-heading{margin-bottom:20px;}
+.land-page-outer .Partner li{min-width:100%;}
+.land-page-outer .mt-4.text-align{text-align:center !important;}
+.land-page-outer .Partner .section-heading h2,.technology h2,ul.li-desc li,.technology h4{text-align:left;}
+.land-page-outer .icon-box{width:40%;flex:inherit;}
+.land-page-outer .blockchain{margin:20px 0 0px;}
+.land-page-outer .right-part .listing-serv::before{left:-80px;top:30px;}
+.land-page-outer .right-part.listing-serv{padding-top:56px;}
+.land-page-outer .blockchain-data ul{margin-bottom:0}
+.land-page-outer .Promoters,section#Partner,.technology,.What-We-Offer{padding-top:30px;padding-bottom:30px;}
+.land-page-outer #footer{margin-top:0;}
+.land-page-outer .owl-nav button.owl-next{right:10px;}
+.land-page-outer .owl-nav button{left:10px;top:auto;bottom:-14px;}
+    .land-page-outer .banner-text h2{padding-top: 0;}
+
+}
+
+@media screen and (min-width:0px) and (max-width:767px){
+
+.land-page-outer #about .about-img{margin-top: 0;}
+.land-page-outer section#about{padding-top: 20px;}
+.decentralization{padding: 10px}    
+.land-page-outer .technology h4{margin-top: 30px} 
+.land-page-outer .What-We-Offer {padding-top: 0;} 
+.land-page-outer #about .about-content h2{margin-top: 25px}
+.banner-text  {text-align: center;}
+.banner-text  p{text-align: center;}
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:480px){.banner-text h2{font-size:1.5rem;}
+.land-page-outer .h2, .land-page-outer h2{font-size:1.4rem;}
+.land-page-outer #about .about-content ul li{padding-bottom:0;}
+.land-page-outer h2.bottom30.page-heading{font-size:18px;}
+.land-page-outer .h4, .land-page-outer h4{font-size:1.1rem;}
+..land-page-outer icon-box{width:38%;margin:0 3px 5px;padding:0 0 10px;}
+.land-page-outer .icon-box .icon{background:#fff;width:54px;height:54px;}
+.land-page-outer .icon-box .title{font-size:14px;}
+}
